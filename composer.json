@@ -1,37 +1,30 @@
 {
-  "name": "rustamwin/yii2-jsonrpc",
-  "description": "Yii2 JSONRPC",
-  "keywords": [
-    "yii2",
-    "yii",
-    "extension"
-  ],
-  "homepage": "http://www.yiiframework.com/",
-  "type": "project",
-  "license": "MIT",
-  "support": {
-    "issues": "https://github.com/rustamwin/yii2-jsonrpc/issues?state=open",
-    "source": "https://github.com/rustamwin/yii2-jsonrpc"
-  },
-  "minimum-stability": "stable",
-  "require": {
-    "php": ">=5.4.0",
-    "yiisoft/yii2": "~2.0.13"
-  },
-  "require-dev": {
-    "codeception/base": "^2.2.3",
-    "codeception/verify": "~0.3.1"
-  },
-  "autoload": {
-    "psr-4": {"rustamwin\\rpc\\": "rustamwin/rpc/src/"}
-  },
-  "config": {
-    "process-timeout": 1800,
-    "fxp-asset": {
-      "installer-paths": {
-        "npm-asset-library": "vendor/npm",
-        "bower-asset-library": "vendor/bower"
-      }
+    "name": "rustamwin/yii2-jsonrpc",
+    "description": "Yii2 JSONRPC",
+    "keywords": [
+        "yii2",
+        "yii",
+        "extension"
+    ],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/rustamwin/yii2-jsonrpc/issues?state=open",
+        "source": "https://github.com/rustamwin/yii2-jsonrpc"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.13"
+    },
+    "require-dev": {
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "rustamwin\\rpc\\": "rustamwin/rpc/src/"
+        }
     }
-  }
 }
